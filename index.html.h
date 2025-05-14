@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate - Canada by Canoe</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Support Canada by Canoe</h1>
+  <div id="givecloud-widget"></div>
+
+  <script>
+    (function(g, c, l, d) {
+      l = g.createElement(c);
+      l.async = 1;
+      l.src = "https://truenorthaid.givecloud.co/v1/widgets.js";
+      d = g.getElementsByTagName(c)[0];
+      d.parentNode.insertBefore(l, d);
+    })(document, "script");
+  </script>
+</body>
+</html>
